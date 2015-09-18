@@ -1,0 +1,32 @@
+[
+	{
+		"location": "The Neighborhood",
+		"text": "The house, on the edge of the neighborhood, had always been a mystery for Vince.",
+		"choices": [
+			"A sparrow lying on the pavement.",
+			"A bicycle (his feet barely touch the ground).",
+			"Tommy's name in the grass."
+		]
+	},
+
+	{
+		"location": "Attica, New York",
+		"text": "Once, when Vince was young, he went to a singularly odd house in the middle of the country.",
+			"choices": [
+				"The prison walls in our backyard.",
+				"A broken Chevy by the lake.",
+				"A Teddy bear leaning against the tree."
+			]
+	},
+
+	{
+		"location": "A Kingdom by the Sea",
+		"text": "One house, as all men know, is the beginning of the sea; who can you love but the soul of me?",
+			"choices": [
+				"The Collected Fictions of Edgar Allan Poe.",
+				"A CD near the tombstone.",
+				"The wind in your ear."
+			]
+	}
+
+]

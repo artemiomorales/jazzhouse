@@ -1,0 +1,7 @@
+<h1>The Jazz House</h1>
+<div>
+	<div class="choice-box" ng-repeat="slide in slides">
+		<!-- <div ng-click="nextSlide(this)">{{ slide.text }}</div> -->
+		<a href="#/slides/{{ $index }}">{{ slide.text }}</a>
+	</div>
+</div>

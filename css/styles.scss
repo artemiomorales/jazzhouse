@@ -1,0 +1,94 @@
+.ib {
+
+	/* @Defaults */
+	a {
+		color: #000;
+		text-decoration: none;
+	}
+	/* END @Defaults */
+
+	/* Header */
+	.header {
+		background: rgba(190,190,190,.5);
+		width: 100%;
+		padding: 15px;
+		text-transform: uppercase;
+	}
+	/* END @Header */
+
+	/* @Main-Container */
+	.main-container {
+		text-align: center;
+		width: 100%;
+		padding-bottom: 25px;
+		border-bottom: 1px solid #000;
+
+		.choice-box {
+			display: inline-block;
+			width: 25%;
+			cursor: pointer;
+			line-height: 25px;
+			margin-left: 8%;
+			&:first-child {
+				margin-left: 0;
+			}
+			&.animate-enter {
+			  -webkit-animation:0.5s my_animation;
+			  -moz-animation:0.5s my_animation;
+			  -o-animation:0.5s my_animation;
+			  animation:0.5s my_animation;
+			}
+		}
+
+		.slide {
+
+			p:hover {
+				cursor: pointer; 
+			}
+		}
+	}
+	/* END @Main-Container */
+
+	/* @Info */
+	.info {
+		width: 75%;
+		margin: 0 auto;
+		text-align: center;
+
+		.actions {
+			float: left;
+			width: 50%;
+
+			.button {
+				display: block;
+				margin-bottom: 10px;
+			}
+		}
+	
+		.inventory {
+			float: right;
+			width: 50%;
+		}
+	}
+	/* END @Info */
+
+}
+
+/*
+  Unfortunately each browser vendor requires
+  its own definition of keyframe animation code...
+*/
+@-webkit-keyframes my_animation {
+  from { opacity:1; }
+  to { opacity:0; }
+}
+
+@-moz-keyframes my_animation {
+  from { opacity:1; }
+  to { opacity:0; }
+}
+
+@-o-keyframes my_animation {
+  from { opacity:1; }
+  to { opacity:0; }
+}
